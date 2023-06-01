@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useRef } from "react";
 
 // import img
 import Image from "../assets/img/about.webp";
 
 const About = () => {
+  const contactRef = useRef(null);
+
+  const scrollToContact = () => {
+    if (contactRef.current) {
+      contactRef.current.scrollIntoView({ behavior: "smooth" });
+    } else {
+      // Scroll to the bottom of the page if the contact section is not found
+      window.scrollTo({
+        top: document.documentElement.scrollHeight,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <section className="section bg-secondary" id="about">
       <div className="container mx-auto">
@@ -36,12 +50,18 @@ const About = () => {
                 love to hear from you!
               </p>
             </div>
-            <button className="btn btn-md bg-accent hover:bg-secondary-hover transition-all">
+            <button
+              className="btn btn-md bg-accent hover:bg-secondary-hover transition-all"
+              onClick={scrollToContact}
+            >
               Contact me
             </button>
           </div>
         </div>
       </div>
+
+      {/* Contact Section */}
+      <div ref={contactRef}>{/* Your Contact.js component content */}</div>
     </section>
   );
 };

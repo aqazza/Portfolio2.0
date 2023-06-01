@@ -1,7 +1,6 @@
 import React from "react";
 
 // import woman image
-import WomanImg from "../assets/img/banner-woman2.webp";
 
 const Hero = () => {
   return (
@@ -19,16 +18,22 @@ const Hero = () => {
               I Build & Design <br /> Web Interfaces.
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore
-              dolor elit.
+              My name is Anas, and I specialize in building and designing web
+              interfaces. I'm passionate about creating visually appealing and
+              user-friendly websites that leave a lasting impression. Let's
+              collaborate and bring your digital vision to life!
             </p>
             <button className="btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all">
-              Work with me
+              <a
+                href="https://www.linkedin.com/in/anas-qazza/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Work with me
+              </a>
             </button>
           </div>
-          <div className="hidden lg:flex flex-1 justify-end items-end h-full">
-            <img src={WomanImg} alt="" />
-          </div>
+          <div className="hidden lg:flex flex-1 justify-end items-end h-full"></div>
         </div>
       </div>
     </section>

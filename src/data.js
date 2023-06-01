@@ -62,10 +62,6 @@ export const navigation = [
     href: "services",
   },
   {
-    name: "testimonials",
-    href: "testimonials",
-  },
-  {
     name: "contact",
     href: "contact",
   },
@@ -139,13 +135,13 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "UI/UX Design",
+    name: "Dyme",
   },
   {
-    name: "web development",
+    name: "Juke Joint",
   },
   {
-    name: "branding",
+    name: "Urban Info",
   },
 ];
 
@@ -233,12 +229,12 @@ export const contact = [
     icon: <FiMail />,
     title: "Have a question?",
     subtitle: "Dont hesitate to reach out!",
-    description: "Email me at anasqazza@gmail.com",
+    // description: "Email me at anasqazza@gmail.com",
   },
   {
     icon: <FiMapPin />,
     title: "Current Location",
     subtitle: "Cypress, CA, USA",
-    description: "Serving clients worldwide",
+    // description: "Serving clients worldwide",
   },
 ];
