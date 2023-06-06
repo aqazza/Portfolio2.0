@@ -52,7 +52,9 @@ const About = () => {
             </div>
             <button
               className="btn btn-md bg-accent hover:bg-secondary-hover transition-all"
-              onClick={scrollToContact}
+              onClick={() =>
+                (window.location.href = "mailto:anasqazza@gmail.com")
+              }
             >
               Contact me
             </button>

@@ -12,8 +12,7 @@ const Services = () => {
             What I do for clients
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+          I provide a range of services to meet the needs of my clients. From web design and development to branding and SEO, I help businesses establish a strong online presence and reach their target audience effectively.
           </p>
         </div>
         <div className='grid lg:grid-cols-4 gap-8'>

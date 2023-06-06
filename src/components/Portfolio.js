@@ -12,8 +12,9 @@ const Portfolio = () => {
             My latest projects
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            Each of these projects demonstrates my commitment to delivering
+            high-quality results and meeting the unique requirements of my
+            clients.
           </p>
         </div>
         <Projects />
