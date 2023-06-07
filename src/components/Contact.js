@@ -36,19 +36,41 @@ const Contact = () => {
               );
             })}
           </div>
-          <form className="space-y-8 w-full max-w-[780px]">
+          <form
+            className="space-y-8 w-full max-w-[780px]"
+            action="https://formspree.io/f/mayzgajz"
+            method="POST"
+          >
             <div className="flex gap-8">
-              <input className="input" type="text" placeholder="Your name" />
-              <input className="input" type="email" placeholder="Your email" />
+              <input
+                className="input"
+                type="text"
+                placeholder="Your name"
+                name="name"
+              />
+              <input
+                className="input"
+                type="email"
+                placeholder="Your email"
+                name="email"
+              />
             </div>
-            <input className="input" type="text" placeholder="Subject" />
+            <input
+              className="input"
+              type="text"
+              placeholder="Subject"
+              name="subject"
+            />
             <textarea
               className="textarea"
               placeholder="Your message"
+              name="message"
             ></textarea>
-            <button className="btn btn-lg bg-accent hover:bg-secondary-hover">
-              Send message
-            </button>
+            <input
+              className="btn btn-lg bg-accent hover:bg-secondary-hover"
+              type="submit"
+              value="Send message"
+            />
           </form>
         </div>
       </div>
