@@ -46,17 +46,20 @@ const About = () => {
                 constantly refining my skills and striving for excellence in my
                 craft. <br />
                 <br />
-                Please feel free to contact me for any inquiries and I would
-                love to hear from you!
+                {/* Please feel free to contact me for any inquiries and I would
+                love to hear from you! */}
               </p>
             </div>
             <button
               className="btn btn-md bg-accent hover:bg-secondary-hover transition-all"
               onClick={() =>
-                (window.location.href = "mailto:anasqazza@gmail.com")
+                window.open(
+                  "https://www.canva.com/design/DAFd-9dfmW8/25TN9XQ1qLIj4TRJWsENnA/view?utm_content=DAFd-9dfmW8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+                  "_blank"
+                )
               }
             >
-              Contact me
+              Resume
             </button>
           </div>
         </div>

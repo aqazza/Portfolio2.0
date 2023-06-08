@@ -108,23 +108,23 @@ export const projectsData = [
     id: "1",
     image: Project2,
     name: "Dyme",
-    // category: "UI/UX design",
     description:
       "Software application designed to help users track their income and expenses and monitor their spending habits",
+    link: "https://dyme.herokuapp.com/login",
   },
   {
     id: "2",
     image: Project1,
     name: "Juke Joint",
-    // category: "Web Development",
     description: "A music streaming app that allows users to listen to music",
+    link: "https://jukejoint.herokuapp.com/login",
   },
   {
     id: "3",
     image: Project3,
     name: "Urban Info",
-    // category: "UI/UX design",
     description: "A website that provides information about urban cities",
+    link: "https://noahfajarda.github.io/Urban-Info/",
   },
 ];
 
@@ -237,9 +237,9 @@ export const services = [
   },
   {
     icon: <FiPenTool />,
-    name: "Branding",
+    name: "Quality Assurance",
     description:
-      "Work closely with clients to develop strong and cohesive branding strategies. From designing captivating logos and brand identities to crafting compelling brand messages, I create a memorable impression on their target audience.",
+      "Proficient in performing software testing and quality assurance ensuring reliability and functionality of a software. I can create and execute test plans, perform unit testing, integration testing, and regression testing. By identifying and fixing defects early in the development cycle, I deliver high-quality software solutions to clients.",
   },
   {
     icon: <FiTag />,
