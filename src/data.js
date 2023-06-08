@@ -136,32 +136,62 @@ export const projectsNav = [
   {
     name: "Dyme",
     images: [
-      require("./assets/img/projects/dyme1.png"),
-      require("./assets/img/projects/Dyme2.png"),
-      require("./assets/img/projects/Dyme3.png"),
+      {
+        src: require("./assets/img/projects/dyme1.png"),
+        description:
+          "Dyme's user-friendly sign-up process ensures a smooth onboarding experience, enabling you to leverage the app's robust features and make informed financial decisions.",
+        title: "Dyme Sign-up",
+      },
+      {
+        src: require("./assets/img/projects/Dyme2.png"),
+        description:
+          "Get a clear overview of your expenses, budget balance, and total expenses effortlessly. The intuitive design allows you to navigate through your financial data seamlessly, while the most viewed transactions section provides quick access to your important spending details.",
+      },
+      {
+        src: require("./assets/img/projects/Dyme3.png"),
+        description:
+          "Easily differentiate your expenses into various categories, such as groceries, entertainment, bills, and more. Take control of your budget by assigning specific amounts to each category and tracking your spending against your budgeted amounts. ",
+      },
     ],
   },
   {
     name: "Juke Joint",
     images: [
-      require("./assets/img/projects/JJ4.png"),
-      require("./assets/img/projects/JJ2.png"),
-      require("./assets/img/projects/JJ1.png"),
+      {
+        src: require("./assets/img/projects/JJ4.png"),
+        description:
+          "Our user-friendly design ensures a seamless music exploration experience. Easily navigate and search for tracks, artists, and albums of your choice. Dive into an expansive collection of songs, discover talented musicians, and explore a diverse range of captivating albums. ",
+      },
+      {
+        src: require("./assets/img/projects/JJ2.png"),
+        description:
+          "Effortlessly access and enjoy a collection of your favorite songs, accompanied by the convenience of managing and organizing your own playlist. Uncover the essence of your musical preferences as you delve into the likes and playlist page of our app.",
+      },
+      {
+        src: require("./assets/img/projects/JJ1.png"),
+        description:
+          "Engage with the song being played as you dive deeper into its intricacies. Explore the details, lyrics, and comment on each track, fostering a deeper connection to the music.",
+      },
     ],
-
-    // description: [
-    //   "Description 1 for Image 1",
-    //   "Description 2 for Image 2",
-    //   "Description 3 for Image 3",
-    // ],
   },
-
   {
     name: "Urban Info",
     images: [
-      require("./assets/img/projects/UI1.png"),
-      require("./assets/img/projects/UI2.png"),
-      require("./assets/img/projects/UI3.png"),
+      {
+        src: require("./assets/img/projects/UI1.png"),
+        description:
+          "Urban Info allows you to explore the world's major urban areas and see its statistics and rankings in various categories such as population, economy, and more. ",
+      },
+      {
+        src: require("./assets/img/projects/UI2.png"),
+        description:
+          "Some statistics shown can show the user the city's best university as well as its ranking. It also details vital information such as the city's population, GDP, safety, and more.",
+      },
+      {
+        src: require("./assets/img/projects/UI3.png"),
+        description:
+          "The application allows you to see over 200 urban areas worldwide as well as ten different categories of statistics for each city.",
+      },
     ],
   },
 ];

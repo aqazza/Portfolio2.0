@@ -67,20 +67,19 @@ const Projects = () => {
           })}
         </ul>
       </nav>
-
       {/* carousel */}
       {item.images && (
         <div className="max-w-4xl mx-auto">
           <Slider>
-            {item.images.map((image, index) => (
+            {item.images.map((imageObj, index) => (
               <div key={index} className="relative overflow-hidden w-96 h-96">
                 <img
-                  src={image}
+                  src={imageObj.src}
                   alt={`Project Image ${index}`}
-                  className="w-full h-full object-contain rounded-xl"
+                  className="w-full h-full object-contain rounded-xl hover:opacity-75 transition duration-300"
                 />
                 <div className="absolute bottom-0 left-0 w-full bg-gray-900 bg-opacity-75 text-white p-4">
-                  <p className="text-sm">{projectsNav[index].description}</p>
+                  <p className="text-sm">{imageObj.description}</p>
                 </div>
               </div>
             ))}
