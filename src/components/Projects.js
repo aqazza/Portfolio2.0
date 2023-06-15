@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -75,9 +74,10 @@ const Projects = () => {
               <div key={index} className="relative overflow-hidden w-96 h-96">
                 <img
                   src={imageObj.src}
-                  alt={`Project Image ${index}`}
+                  alt={`Project ${index + 1}`}
                   className="w-full h-full object-contain rounded-xl hover:opacity-75 transition duration-300"
                 />
+
                 <div className="absolute bottom-0 left-0 w-full bg-gray-900 bg-opacity-75 text-white p-4">
                   <p className="text-sm">{imageObj.description}</p>
                 </div>
