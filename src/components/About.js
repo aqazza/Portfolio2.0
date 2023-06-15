@@ -73,7 +73,7 @@ const About = () => {
         </div>
       </div>
 
-      <div ref={contactRef}>{/* Your Contact.js component content */}</div>
+      <div ref={contactRef}>{/* Your Contact js component content */}</div>
     </section>
   );
 };
