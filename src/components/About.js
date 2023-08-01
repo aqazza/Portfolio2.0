@@ -61,7 +61,7 @@ const About = () => {
                 className="btn btn-md bg-accent hover:bg-secondary-hover transition-all"
                 onClick={() =>
                   window.open(
-                    "https://www.canva.com/design/DAFd-9dfmW8/25TN9XQ1qLIj4TRJWsENnA/view?utm_content=DAFd-9dfmW8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+                    "https://www.canva.com/design/DAFp9dVvZng/RoIJN3mpnXovaJIFbpZ5DA/view?utm_content=DAFp9dVvZng&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
                     "_blank"
                   )
                 }
